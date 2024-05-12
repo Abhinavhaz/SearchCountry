@@ -23,7 +23,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.countryCard{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border: 1px solid black;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  padding: 1.5px;
+  margin: 10px;
+  /* objectFit: "cover"; */
 
+}
 .App-link {
   color: #61dafb;
 }
