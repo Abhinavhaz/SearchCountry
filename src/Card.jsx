@@ -56,7 +56,7 @@ setFilterData(value)
       {country.map((item) => {
         return (
           <Tile
-            key={item.ccn3}
+            // key={item.ccn3}
             flag={item.flags.png}
             name={item.name.common}
             alt={item.flags.alt}
@@ -69,7 +69,7 @@ setFilterData(value)
 {filterdata.map((item) => {
         return (
           <Tile
-            key={item.ccn3}
+            // key={item.ccn3}
             flag={item.flags.png}
             name={item.name.common}
             alt={item.flags.alt}
