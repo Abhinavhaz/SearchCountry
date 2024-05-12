@@ -40,7 +40,7 @@ setFilterData(value)
   return (
     <>
     <div>
-        <input type="text" placeholder="Search for a Country" onChange={handleChange} />
+        <input type="text" placeholder="Search for a Country" onChange={(e) => handleChange(e)} />
     </div>
     <div
       style={{
